@@ -1,0 +1,137 @@
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-weight: bold;
+    font-family: "amiri";
+  }
+  
+ 
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #c9c9c9, #ebebeb);
+    font-family: 'Arial', sans-serif;
+    
+  }
+  
+  
+  #player {
+     
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width:500px;
+    background-image:url(bg.jpg);
+    background-size: contain; 
+    background-size: 800px;   
+  }
+  
+ 
+  h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  
+  #radioList {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  img{
+    width: 30px;
+margin-left: 3px;
+margin-top: 5px;
+  }
+   button {
+ 
+   align-content: center;
+    width:20%;
+    
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 360px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+   
+  }
+  
+  button#play {
+    background: #538392;
+    color: #55AD9B;
+    
+  }
+  
+  button#play:hover {
+    background: #0e718f;
+  }
+  
+  
+
+  
+  #rec {
+    margin-left: 10px;
+    font-size: 0.9em;
+  }
+  
+ select{
+    background-color: #dddddd;;
+ }
+  #list{
+    list-style-type: none;
+  }
+  #list li{
+     
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 4px;
+   
+  }
+  #list li:hover{
+     
+     background-color: #0e718f4d;
+     transition: ease-in-out 0.2s;
+     cursor: pointer;
+   
+  }
+  #l1{border-radius: 10px 10px 0px 0px;}#l6{border-radius: 0px 0px 10px 10px;}
+  #side-bar{
+    width: 30%;
+    float: left;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #9fb1b44d;
+  }
+  #right-side{
+    width: 70%;
+    float: right;
+  }
+  #volumeControl {
+    width: 100px; /* Adjust width as needed */
+    height: 10px; /* Adjust height as needed */
+    
+    background: #ddd; /* Background color of the slider track */
+    outline: none;
+    opacity: 0.7;
+    transition: opacity 0.15s ease-in-out;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+  
+     
+  }
+  #volumeControl:hover {
+    opacity: 1;
+  }
+ 
+  
+  

@@ -13,4 +13,4 @@
 
 1. Download the extension files or clone the repository:
    ```sh
-   git clone https://github.com/yourusername/QuranRadioPlayer.git
+   git clone https://github.com/abdullahdaja/QuranRadio-ChromeExtension.git
